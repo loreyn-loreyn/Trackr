@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Track'r"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Trackr">
+
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Trackr.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".AlarmSettingsActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <activity android:name=".auth.LoginActivity" android:theme="@style/Theme.Trackr.NoActionBar" android:exported="true"/>
+        <activity android:name=".auth.RegisterActivity" android:theme="@style/Theme.Trackr.NoActionBar" android:exported="true" />
+
+        <activity android:name=".main.MainActivity" android:theme="@style/Theme.Trackr.NoActionBar" android:exported="true" />
+        <activity android:name=".main.SettingsActivity" android:exported="false" />
+        <activity android:name=".main.AccountActivity" android:exported="false" />
+        <activity android:name=".main.NotificationSettingsActivity" android:exported="false" />
+        <activity android:name=".main.HelpActivity" android:exported="false" />
+        <activity android:name=".main.AboutActivity" android:exported="false" />
+        <activity android:name=".main.PrivacyActivity" android:exported="false" />
+        <activity android:name=".main.SearchActivity" android:theme="@style/Theme.Trackr.NoActionBar" android:exported="false" />
+        <activity android:name=".main.LogoutActivity" android:exported="false" />
+    </application>
+</manifest>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="24dp"
+    app:cardElevation="4dp"
+    android:background="?attr/selectableItemBackground">
+
+    <LinearLayout
+        android:id="@+id/timerContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center"
+        android:background="#008577"
+        android:minHeight="180dp">
+
+        <TextView
+            android:id="@+id/timerLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Timer"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/timerTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:15:00"
+            android:textSize="28sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/presetTimeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Preset: 00:15:00"
+            android:textSize="12sp"
+            android:textColor="#B2DFDB"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- Start Button (shown when inactive) -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/startButton"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="START"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="#2E7D32"
+            android:background="@drawable/button_start_background"/>
+
+        <!-- Pause and Reset Buttons (shown when active, horizontal layout like normal timer) -->
+        <LinearLayout
+            android:id="@+id/activeButtonsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/pauseButton"
+                android:layout_width="0dp"
+                android:layout_height="36dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="4dp"
+                android:text="PAUSE"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="#F57F17"
+                android:background="@drawable/button_pause_background"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/restartButton"
+                android:layout_width="0dp"
+                android:layout_height="36dp"
+                android:layout_weight="1"
+                android:layout_marginStart="4dp"
+                android:text="RESET"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="#C62828"
+                android:background="@drawable/button_reset_background"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

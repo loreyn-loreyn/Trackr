@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- Teal colors -->
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="teal_primary">#008577</color>
+    <color name="teal_dark">#006658</color>
+    <color name="teal_light">#4DB6AC</color>
+    <color name="teal_lighter">#B2DFDB</color>
+
+    <!-- Gray colors -->
+    <color name="gray_200">#E0E0E0</color>
+    <color name="gray_400">#FFBDBDBD</color>
+    <color name="gray_500">#9E9E9E</color>
+    <color name="gray_600">#FF757575</color>
+    <color name="gray_800">#FF424242</color>
+    <color name="gray_900">#FF212121</color>
+
+    <!-- Red colors -->
+    <color name="red_500">#F44336</color>
+    <color name="red_400">#F46153</color>
+    <color name="reset_button_bg">#FFCDD2</color>
+    <color name="reset_button_text">#C62828</color>
+
+    <!-- Green colors -->
+    <color name="green_500">#4CAF50</color>
+    <color name="start_button_bg">#C8E6C9</color>
+    <color name="start_button_text">#2E7D32</color>
+
+    <!-- Orange colors -->
+    <color name="orange_500">#FFC107</color>
+    <color name="pause_button_bg">#FFF9C4</color>
+    <color name="pause_button_text">#F57F17</color>
+
+    <!-- Background colors -->
+    <color name="background_light">#F5F5F5</color>
+    <color name="background_dark">#121212</color>
+
+    <!-- Card colors -->
+    <color name="card_background_light">#008577</color>
+    <color name="card_background_dark">#004D45</color>
+
+    <!-- Highlight color for search navigation -->
+    <color name="highlight_color">#FFFDE7</color> <!-- Light yellow highlight -->
+    <color name="highlight_color_accent">#FFF9C4</color> <!-- Slightly darker yellow -->
+
+    <!-- Text colors -->
+    <color name="text_primary_light">#000000</color>
+    <color name="text_primary_dark">#FFFFFF</color>
+    <color name="text_secondary_light">#B2DFDB</color>
+    <color name="text_secondary_dark">#80CBC4</color>
+</resources>

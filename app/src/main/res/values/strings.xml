@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Track\'r</string>
+    <string name="sdg_message">Supporting SDG 3: Good Health and Well-being through effective time management and productivity</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="full_name">Full Name</string>
+    <string name="age">Age</string>
+    <string name="contact">Contact Number</string>
+    <string name="track_r">Track\'r</string>
+    <string name="manage_your_time_effectively">Manage Your Time Effectively</string>
+    <string name="support">Support</string>
+    <string name="notifications">Notifications</string>
+    <string name="account_information">Account Information</string>
+    <string name="preferences">Preferences</string>
+    <string name="help_amp_feedback"><![CDATA[Help & Feedback]]></string>
+    <string name="about">About</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="logout">Logout</string>
+    <string name="account">Account</string>
+    <string name="todo">TODO</string>
+</resources>
